@@ -9,3 +9,8 @@ if st.button (" REALIZAR VENDA ") :
   st.write ("VENDA REALIZADA COM SUCESSO ") 
 if st.button (" CANCELAR VENDA " ) :
   st.write (" VENDA CANCELADA COM SUCESSO") 
+if compra <= estoque:
+  estoque= estoque - compra
+ st.write ("estoque", estoque) 
+ else 
+  st. write (" estoque indisponivel") 
