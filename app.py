@@ -13,4 +13,4 @@ if compra <= estoque:
   estoque= estoque - compra
   st.write("estoque:", estoque) 
 else:
-  st. write(" estoque indisponivel") 
+  st. write("estoque insuficiente") 
