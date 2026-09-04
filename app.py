@@ -7,3 +7,5 @@ custo= st.number_input (" CUSTO DO PRODUTO (R$)", min_value=0.0, step=0.50)
 compra= st.number_input ( " QUANTIDADE VENDA", min_value=1, step=1) 
 if st.button (" REALIZAR VENDA ") :
   st.write ("VENDA REALIZADA COM SUCESSO ") 
+if st.button (" CANCELAR VENDA " ) :
+  st.write (" VENDA CANCELADA COM SUCESSO") 
