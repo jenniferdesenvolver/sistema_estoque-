@@ -11,6 +11,6 @@ if st.button (" CANCELAR VENDA " ) :
   st.write (" VENDA CANCELADA COM SUCESSO") 
 if compra <= estoque:
   estoque= estoque - compra
-  st.write ("estoque:", estoque) 
+  st.writ("estoque:", estoque) 
  else 
-  st. write (" estoque indisponivel") 
+  st. write(" estoque indisponivel") 
